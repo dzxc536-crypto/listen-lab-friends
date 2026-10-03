@@ -1,0 +1,374 @@
+{
+  "resources": [
+    {
+      "file": "models/browser/opus-mt-en-zh/BASE_MODEL_README.md",
+      "source": "https://huggingface.co/Helsinki-NLP/opus-mt-en-zh/resolve/main/README.md",
+      "sha256": "83eee2a6598751f746a057e10d5c9dfd71d6b0cf0146f9e6c1bb3ebd6e90959b",
+      "bytes": 2670
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/config.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/config.json",
+      "sha256": "4727d1229a04f95bf6f39abf949d8080615433d99d6ebd85f81c09edd247d5fa",
+      "bytes": 1503
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/generation_config.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/generation_config.json",
+      "sha256": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803",
+      "bytes": 293
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/LICENSE.txt",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/onnx/decoder_model_merged_quantized.onnx",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/onnx/decoder_model_merged_quantized.onnx",
+      "sha256": "023be4f841f4c47cd65fffcbaa81c0d99d7f7e0138f7ba0e03fa220a4e688aff",
+      "bytes": 60212804
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/onnx/encoder_model_quantized.onnx",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/onnx/encoder_model_quantized.onnx",
+      "sha256": "d3b7912bf6a9bd27e4c074c2df91d4ff3d5b4bc5f7f6c8d7cc9c805c98fbafee",
+      "bytes": 52899742
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/README.md",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/README.md",
+      "sha256": "4aeb4d31c2b0ab8dd06aaa6c8705f8bdada6869ca67def9c2e1f5475ff007530",
+      "bytes": 571
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/special_tokens_map.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/special_tokens_map.json",
+      "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723",
+      "bytes": 74
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/tokenizer.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/tokenizer.json",
+      "sha256": "d0c7da27056e8f42adce9e76d8e792e5daa64e15f5acd2e7aabf0121877dd4c1",
+      "bytes": 6380952
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/tokenizer_config.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/tokenizer_config.json",
+      "sha256": "a914596e6bff113a8428d4793b586da87cd0b95697a0e72aba90cc1d95858481",
+      "bytes": 282
+    },
+    {
+      "file": "models/browser/opus-mt-en-zh/vocab.json",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-zh/resolve/046f55aec303cdee3e0318604406d4df20f1e8ea/vocab.json",
+      "sha256": "22c957348eed495ee925afc40a36da3e387c8a34a734c8486967c2dca271613e",
+      "bytes": 1747795
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/config.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/config.json",
+      "sha256": "ceff8f92e6670ad3633779bd43b3559628c1a64b0868ef6046b23d62b85c69d5",
+      "bytes": 2094
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/onnx/model_quantized.onnx",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/onnx/model_quantized.onnx",
+      "sha256": "cd5040c147381580ed73258143dd8e0c28e800a09e74ee42ee2b3e8cb4d760a3",
+      "bytes": 95286046
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/preprocessor_config.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/preprocessor_config.json",
+      "sha256": "8cdfd65ff4115423185a1512bdae100e2e0cd744f5b322417429944aaafd0827",
+      "bytes": 215
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/README.md",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/README.md",
+      "sha256": "6c235e53bdc82374bd10f9dbff5aad652c0e1c11eaaf9427d85a7c3adcd56fb8",
+      "bytes": 1372
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/special_tokens_map.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/special_tokens_map.json",
+      "sha256": "9046da57c270c8e74d0f38832b4adce269c9d914ef21d2a0925e7772152dd793",
+      "bytes": 96
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/tokenizer.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/tokenizer.json",
+      "sha256": "df57f576f5ef16a454ae2776dcc777ffef0bc824113043043b7218c829fc7405",
+      "bytes": 2187
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/tokenizer_config.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/tokenizer_config.json",
+      "sha256": "a9e4c32c514353aa37d3e52c2b284fda626409905f6590689c1f16ed45458473",
+      "bytes": 442
+    },
+    {
+      "file": "models/browser/wav2vec2-base-960h/vocab.json",
+      "source": "https://huggingface.co/Xenova/wav2vec2-base-960h/resolve/a19f851b3d42865797e410752b4c570c871e4825/vocab.json",
+      "sha256": "4178db26b3c7570f6a47f14ac6a1c7b32950b8c2800fb097287e53776934f1c5",
+      "bytes": 358
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/added_tokens.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/added_tokens.json",
+      "sha256": "598c98875c01fe7ebd08ba6779f052f1136de6d36d9e7b99e04b432f78ecb28d",
+      "bytes": 2082
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/config.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/config.json",
+      "sha256": "37a1073be00d19118c06557896c7c148598f4d8277edc0f5bc07c9f5554839f1",
+      "bytes": 2202
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/generation_config.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/generation_config.json",
+      "sha256": "132c95ba9db45f4498f2eab3fea7c1d6a174005010f8f6b7d20cfd5e9795996b",
+      "bytes": 1590
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/merges.txt",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "bytes": 456318
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/normalizer.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/normalizer.json",
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "bytes": 52666
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/onnx/decoder_model_merged_quantized.onnx",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/onnx/decoder_model_merged_quantized.onnx",
+      "sha256": "dbb2e063b7fbc41d9803b9698f93ecb035c50cbb3fb87b56cb131e4a5eb99059",
+      "bytes": 30727382
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/onnx/encoder_model_quantized.onnx",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/onnx/encoder_model_quantized.onnx",
+      "sha256": "8cc3c6f8563d1b3fbd2c5af9f64c2bed8b020bc593c402d1ef53b9f08fbf1b90",
+      "bytes": 10124913
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/preprocessor_config.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/preprocessor_config.json",
+      "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+      "bytes": 339
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/README.md",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/README.md",
+      "sha256": "2f4ddb95ec9d6c6d5f6a1374fc004f45e91f6d7f450ee479f765b8aca47e8b4d",
+      "bytes": 3213
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/special_tokens_map.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/special_tokens_map.json",
+      "sha256": "7da611d517fe29e77335b8d8384e71795fb7b37cbf95bdc3b5252fa7e09dd1f8",
+      "bytes": 1717
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/tokenizer.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/tokenizer.json",
+      "sha256": "c6ee8f089220a5b1188f6426456772572671c6141ae007eecb83c6a8349f5deb",
+      "bytes": 2128494
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/tokenizer_config.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/tokenizer_config.json",
+      "sha256": "e082c1ad251541bf277967a703252cddd4bb37a71a43737e03d050c22ec08238",
+      "bytes": 835
+    },
+    {
+      "file": "models/browser/whisper-tiny.en/vocab.json",
+      "source": "https://huggingface.co/Xenova/whisper-tiny.en/resolve/79fb389fc764e7c395bd330e9531d9d32ada7049/vocab.json",
+      "sha256": "f6bd25a65e4e63ca31360e9fb11c7e4f9a391a78385d640acd814092dd6eee4f",
+      "bytes": 999186
+    },
+    {
+      "file": "vendor/huggingface-transformers-LICENSE.txt",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "member": "package/LICENSE"
+    },
+    {
+      "file": "vendor/ort-wasm-simd-threaded.jsep.mjs",
+      "source": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9",
+      "bytes": 44484,
+      "member": "package/dist/ort-wasm-simd-threaded.jsep.mjs"
+    },
+    {
+      "file": "vendor/ort-wasm-simd-threaded.jsep.wasm",
+      "source": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
+      "bytes": 21596019,
+      "member": "package/dist/ort-wasm-simd-threaded.jsep.wasm"
+    },
+    {
+      "file": "vendor/ort-wasm-simd-threaded.mjs",
+      "source": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+      "sha256": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4",
+      "bytes": 20856,
+      "member": "package/dist/ort-wasm-simd-threaded.mjs"
+    },
+    {
+      "file": "vendor/ort-wasm-simd-threaded.wasm",
+      "source": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+      "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b",
+      "bytes": 11133407,
+      "member": "package/dist/ort-wasm-simd-threaded.wasm"
+    },
+    {
+      "file": "vendor/soundtouch/constants.js",
+      "source": "https://registry.npmjs.org/@soundtouchjs/audio-worklet/-/audio-worklet-2.1.1.tgz",
+      "sha256": "aa28abb1af42a6b6870655a1985ab16c3fd622f8e4b053ccbf8a3222aaae641e",
+      "bytes": 526,
+      "member": "package/.dist/constants.js"
+    },
+    {
+      "file": "vendor/soundtouch/LICENSE.txt",
+      "source": "https://registry.npmjs.org/@soundtouchjs/audio-worklet/-/audio-worklet-2.1.1.tgz",
+      "sha256": "753801acf995db0807e9dab615775310b1f74696e7776ee246bf9b31714cdaf9",
+      "bytes": 284,
+      "member": "package/LICENSE"
+    },
+    {
+      "file": "vendor/soundtouch/processOffline.js",
+      "source": "https://registry.npmjs.org/@soundtouchjs/audio-worklet/-/audio-worklet-2.1.1.tgz",
+      "sha256": "2db06e47b9bb796605f6ffeed47e78a9398b843acf63408ad34b0ac7258da5d5",
+      "bytes": 2146,
+      "member": "package/.dist/processOffline.js"
+    },
+    {
+      "file": "vendor/soundtouch/soundtouch-processor.js",
+      "source": "https://registry.npmjs.org/@soundtouchjs/audio-worklet/-/audio-worklet-2.1.1.tgz",
+      "sha256": "59635b112697ad403f7aebb46fc5386231d5db06877707afcec19f555b4d68ca",
+      "bytes": 72928,
+      "member": "package/.dist/soundtouch-processor.js"
+    },
+    {
+      "file": "vendor/soundtouch/SoundTouchNode.js",
+      "source": "https://registry.npmjs.org/@soundtouchjs/audio-worklet/-/audio-worklet-2.1.1.tgz",
+      "sha256": "d3d66767dd66b4d247deb6da72ede35dcc8b32057f06b2242343e942ffcadfed",
+      "bytes": 5760,
+      "member": "package/.dist/SoundTouchNode.js"
+    },
+    {
+      "file": "vendor/transformers.min.js",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa",
+      "bytes": 888173,
+      "member": "package/dist/transformers.min.js"
+    },
+    {
+      "file": "vendor/transformers.node.min.mjs",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "sha256": "a552da06ff78d0599297dab896e8cc108e469f5dbb9ad6bf7633d7bb46c80287",
+      "bytes": 470288,
+      "member": "package/dist/transformers.node.min.mjs"
+    },
+    {
+      "file": "vendor/transformers.node.mjs",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "sha256": "ee3b84624fee88b9db4b85be1fbfde1e2637957ee92eaaaaa720edbca5448e6c",
+      "bytes": 1777746,
+      "member": "package/dist/transformers.node.mjs"
+    },
+    {
+      "file": "vendor/transformers.web.js",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "member": "package/dist/transformers.web.js",
+      "sha256": "1b41438d839ca3ea1346031472edee8cb3eefbf0bad48945f969559e2eb03394",
+      "bytes": 1777240
+    },
+    {
+      "file": "vendor/transformers.web.min.js",
+      "source": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-3.8.1.tgz",
+      "member": "package/dist/transformers.web.min.js",
+      "sha256": "a8413eff44e055305b2028885b94caf591ce961b421e83b6d9f39fe8f29bda67",
+      "bytes": 469931
+    }
+  ],
+  "siteHashes": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app.js": "81ad515f40b12de047c71db96de749ffe270e13367a13d617426ab45f9de1709",
+    "asr-worker.js": "52da21b6ee3a8245af3874e051e807d12ddb006de5d3f6d66acd95b7e7e9913d",
+    "icon.svg": "6ac04cd8207d059ef0e1fb7b129cddf20a995e78eb3e6362c5321a28d29640b7",
+    "index.html": "3995cadd1fc98a3458a8e9f424fdc64c7bfd9b5f27c7a68970a5424f2c38a3ed",
+    "lyrics.js": "252bce3724f36c353cd2888e487e5012746c57d5c23595b62db9996db075854b",
+    "manifest.webmanifest": "993b0671518ba49261fa634a43e9bf13d5dd936092537b52b8e29359df75511d",
+    "offline-assets.json": "692cd22941de5b6d78aa75ad47efa0b34540e759d3a31cad0a3305c43e8b00ef",
+    "pitch-clip.js": "17901b77b13842f7a2e4f0b14e25e7c5c81c63f89680a6d9c58d5b2bcd02c0c5",
+    "player.js": "cd9f64f83326695cf163c365d91d2529d6a3d6f6b94815e9ba6ebeeed85d9e85",
+    "share-resources.js": "3b132fb77eab1c54ca7f62b262f79b6389c9b4335fab4455cf3d914003c27b1d",
+    "share-setup.js": "f64e4f0793be818233697a088e34604eda548ee042782437c70cf37b5575cc9b",
+    "share.css": "922dc3877dd2daecac73e3ae1b4ebaefd6dce37e10319dad5d020f1114c02db8",
+    "storage.js": "6fd58e153a2f25866b134e469a61a1c443a66dfa0cccdcc0a63c05e583665451",
+    "styles.css": "3c69a29a72f8a3d0ecfaa690bc7b733471765d4281eaa4edd59dc05cf7a77135",
+    "sw.js": "ab349ab14d39c1159f1432a2684f6750f484f2757a944a6cc79f07c6af9ffad9",
+    "THIRD_PARTY.md": "270046693902b59f6ed9a7fda016b320e15175fbaba6d8e67a9718243827e5da",
+    "translation-worker.js": "04e9d02a383261dc04d6b1e72aef635a01c552fcbaff71afd1b094e56caa2df4",
+    "zip.js": "f1714b434bb7224773419ac9a5dbfc08ccc356a57dd36dfcbb5ef18427028f47",
+    "demo/audio.wav": "a803f3aa2569d0eb6f3e863a41453e4de034be0283da8e7188bb8f46916cac86",
+    "demo/material.json": "a2e97fa25800f33974eae52f18fe4bbf7675cfbbaaca0e04831a9333c309b255",
+    "models/browser/opus-mt-en-zh/BASE_MODEL_README.md": "83eee2a6598751f746a057e10d5c9dfd71d6b0cf0146f9e6c1bb3ebd6e90959b",
+    "models/browser/opus-mt-en-zh/config.json": "4727d1229a04f95bf6f39abf949d8080615433d99d6ebd85f81c09edd247d5fa",
+    "models/browser/opus-mt-en-zh/generation_config.json": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803",
+    "models/browser/opus-mt-en-zh/LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "models/browser/opus-mt-en-zh/README.md": "4aeb4d31c2b0ab8dd06aaa6c8705f8bdada6869ca67def9c2e1f5475ff007530",
+    "models/browser/opus-mt-en-zh/special_tokens_map.json": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723",
+    "models/browser/opus-mt-en-zh/tokenizer.json": "d0c7da27056e8f42adce9e76d8e792e5daa64e15f5acd2e7aabf0121877dd4c1",
+    "models/browser/opus-mt-en-zh/tokenizer_config.json": "a914596e6bff113a8428d4793b586da87cd0b95697a0e72aba90cc1d95858481",
+    "models/browser/opus-mt-en-zh/vocab.json": "22c957348eed495ee925afc40a36da3e387c8a34a734c8486967c2dca271613e",
+    "models/browser/opus-mt-en-zh/onnx/decoder_model_merged_quantized.onnx": "023be4f841f4c47cd65fffcbaa81c0d99d7f7e0138f7ba0e03fa220a4e688aff",
+    "models/browser/opus-mt-en-zh/onnx/encoder_model_quantized.onnx": "d3b7912bf6a9bd27e4c074c2df91d4ff3d5b4bc5f7f6c8d7cc9c805c98fbafee",
+    "models/browser/wav2vec2-base-960h/BASE_MODEL_README.md": "fc52a0adfa64e446800f9944c6cf9b90da3127aba548860ea5714516ec8c18c7",
+    "models/browser/wav2vec2-base-960h/config.json": "ceff8f92e6670ad3633779bd43b3559628c1a64b0868ef6046b23d62b85c69d5",
+    "models/browser/wav2vec2-base-960h/preprocessor_config.json": "8cdfd65ff4115423185a1512bdae100e2e0cd744f5b322417429944aaafd0827",
+    "models/browser/wav2vec2-base-960h/README.md": "6c235e53bdc82374bd10f9dbff5aad652c0e1c11eaaf9427d85a7c3adcd56fb8",
+    "models/browser/wav2vec2-base-960h/special_tokens_map.json": "9046da57c270c8e74d0f38832b4adce269c9d914ef21d2a0925e7772152dd793",
+    "models/browser/wav2vec2-base-960h/tokenizer.json": "df57f576f5ef16a454ae2776dcc777ffef0bc824113043043b7218c829fc7405",
+    "models/browser/wav2vec2-base-960h/tokenizer_config.json": "a9e4c32c514353aa37d3e52c2b284fda626409905f6590689c1f16ed45458473",
+    "models/browser/wav2vec2-base-960h/vocab.json": "4178db26b3c7570f6a47f14ac6a1c7b32950b8c2800fb097287e53776934f1c5",
+    "models/browser/wav2vec2-base-960h/onnx/model_quantized.onnx": "cd5040c147381580ed73258143dd8e0c28e800a09e74ee42ee2b3e8cb4d760a3",
+    "models/browser/whisper-tiny.en/added_tokens.json": "598c98875c01fe7ebd08ba6779f052f1136de6d36d9e7b99e04b432f78ecb28d",
+    "models/browser/whisper-tiny.en/config.json": "37a1073be00d19118c06557896c7c148598f4d8277edc0f5bc07c9f5554839f1",
+    "models/browser/whisper-tiny.en/generation_config.json": "132c95ba9db45f4498f2eab3fea7c1d6a174005010f8f6b7d20cfd5e9795996b",
+    "models/browser/whisper-tiny.en/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "models/browser/whisper-tiny.en/normalizer.json": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+    "models/browser/whisper-tiny.en/preprocessor_config.json": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+    "models/browser/whisper-tiny.en/README.md": "2f4ddb95ec9d6c6d5f6a1374fc004f45e91f6d7f450ee479f765b8aca47e8b4d",
+    "models/browser/whisper-tiny.en/special_tokens_map.json": "7da611d517fe29e77335b8d8384e71795fb7b37cbf95bdc3b5252fa7e09dd1f8",
+    "models/browser/whisper-tiny.en/tokenizer.json": "c6ee8f089220a5b1188f6426456772572671c6141ae007eecb83c6a8349f5deb",
+    "models/browser/whisper-tiny.en/tokenizer_config.json": "e082c1ad251541bf277967a703252cddd4bb37a71a43737e03d050c22ec08238",
+    "models/browser/whisper-tiny.en/vocab.json": "f6bd25a65e4e63ca31360e9fb11c7e4f9a391a78385d640acd814092dd6eee4f",
+    "models/browser/whisper-tiny.en/onnx/decoder_model_merged_quantized.onnx": "dbb2e063b7fbc41d9803b9698f93ecb035c50cbb3fb87b56cb131e4a5eb99059",
+    "models/browser/whisper-tiny.en/onnx/encoder_model_quantized.onnx": "8cc3c6f8563d1b3fbd2c5af9f64c2bed8b020bc593c402d1ef53b9f08fbf1b90",
+    "vendor/huggingface-transformers-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "vendor/onnxruntime-LICENSE.txt": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "vendor/onnxruntime-ThirdPartyNotices.txt": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc",
+    "vendor/ort-wasm-simd-threaded.jsep.mjs": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9",
+    "vendor/ort-wasm-simd-threaded.jsep.wasm": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
+    "vendor/ort-wasm-simd-threaded.mjs": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4",
+    "vendor/ort-wasm-simd-threaded.wasm": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b",
+    "vendor/transformers.min.js": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa",
+    "vendor/transformers.node.min.mjs": "a552da06ff78d0599297dab896e8cc108e469f5dbb9ad6bf7633d7bb46c80287",
+    "vendor/transformers.node.mjs": "ee3b84624fee88b9db4b85be1fbfde1e2637957ee92eaaaaa720edbca5448e6c",
+    "vendor/transformers.web.js": "1b41438d839ca3ea1346031472edee8cb3eefbf0bad48945f969559e2eb03394",
+    "vendor/transformers.web.min.js": "a8413eff44e055305b2028885b94caf591ce961b421e83b6d9f39fe8f29bda67",
+    "vendor/soundtouch/constants.js": "aa28abb1af42a6b6870655a1985ab16c3fd622f8e4b053ccbf8a3222aaae641e",
+    "vendor/soundtouch/LICENSE.txt": "753801acf995db0807e9dab615775310b1f74696e7776ee246bf9b31714cdaf9",
+    "vendor/soundtouch/processOffline.js": "2db06e47b9bb796605f6ffeed47e78a9398b843acf63408ad34b0ac7258da5d5",
+    "vendor/soundtouch/soundtouch-processor.js": "59635b112697ad403f7aebb46fc5386231d5db06877707afcec19f555b4d68ca",
+    "vendor/soundtouch/SoundTouchNode.js": "d3d66767dd66b4d247deb6da72ede35dcc8b32057f06b2242343e942ffcadfed"
+  }
+}
