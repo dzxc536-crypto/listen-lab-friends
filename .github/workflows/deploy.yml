@@ -23,6 +23,38 @@ jobs:
         run: python3 -m zipfile -e source-bundle.zip .
       - name: Restore pinned resources and verify tested site
         run: python3 scripts/restore-resources.py
+      - name: Package and verify complete offline download
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, zipfile
+          root = Path('site')
+          files = sorted(p for p in root.rglob('*') if p.is_file() and p.relative_to(root).parts[0] != 'downloads')
+          hashes = {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+          spec = json.loads(Path('resources.json').read_text('utf-8'))
+          for name, expected in spec['siteHashes'].items():
+              if hashes.get(name) != expected:
+                  raise ValueError('Source differs from tested release: ' + name)
+          output = root / 'downloads' / 'listen-lab-offline.zip'
+          output.parent.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+              for path in files:
+                  archive.write(path, path.relative_to(root).as_posix())
+              archive.writestr('bundle-hashes.json', json.dumps(hashes, indent=2))
+              archive.writestr('使用说明.txt', '听练完整资源包：含网页、识别、对齐、翻译模型和运行库。\n手动下载 ZIP 不会自动写入线上网站的浏览器缓存。\n线上离线使用请在原网站点击准备资源。\n本地使用：解压后通过 localhost 服务打开，不能直接双击 index.html。\n已有 Python 的电脑可在解压目录运行 python -m http.server 8080 --bind 127.0.0.1，然后访问 http://localhost:8080/。\n手机本地入口仍需实机验证。\n许可证见 THIRD_PARTY.md 及随附文件。\n')
+          with zipfile.ZipFile(output) as archive:
+              bad = archive.testzip()
+              if bad:
+                  raise ValueError('Corrupt archive member: ' + bad)
+              for name, expected in hashes.items():
+                  if hashlib.sha256(archive.read(name)).hexdigest() != expected:
+                      raise ValueError('Archive content differs: ' + name)
+          digest = hashlib.sha256(output.read_bytes()).hexdigest()
+          output.with_suffix('.zip.sha256').write_text(digest + '  ' + output.name + '\n', encoding='utf-8')
+          report = {'siteFiles': len(files), 'archiveFiles': len(files) + 2, 'bytes': output.stat().st_size, 'sha256': digest, 'sourceHashChecks': len(spec['siteHashes']), 'zipCRC': 'PASS', 'memberHashes': 'PASS'}
+          output.with_suffix('.verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+          print(json.dumps(report))
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
